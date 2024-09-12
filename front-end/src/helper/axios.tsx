@@ -1,6 +1,6 @@
 import axios, { AxiosResponse } from "axios";
 import resp from "./error.helper";
-const API = "http://localhost:8000";
+const API = "https://drag-drop-fe-4wdo.vercel.app";
 
 function _helperaxios(url: string, params: any, method: string) {
   return axios({
