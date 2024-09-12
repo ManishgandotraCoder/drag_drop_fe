@@ -95,5 +95,5 @@
 1. cd back-end
 2. python3 -m venv venv
 3. source venv/bin/activate
-4. cd code
+4. python3 install uvicorn fastapi
 5. python main.py
