@@ -11,7 +11,7 @@ app = FastAPI()
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000","https://drag-drop-fe.vercel.app],  # Adjust this to the frontend's URL or use ["*"] for all
+    allow_origins=["http://localhost:3000","https://drag-drop-fe.vercel.app"],  # Adjust this to the frontend's URL or use ["*"] for all
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
