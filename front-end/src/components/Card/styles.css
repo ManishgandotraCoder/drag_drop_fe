@@ -1,0 +1,35 @@
+.card {
+  background-color: #e4dede;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.2s ease;
+  height: 350px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  font-size: 1.5rem;
+  color: #666;
+}
