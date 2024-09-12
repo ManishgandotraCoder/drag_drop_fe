@@ -86,14 +86,14 @@
 
 ### For front end
 
-cd front-end
-npm install
-npm start
+1. cd front-end
+2. npm install
+3. npm start
 
 ### For back end
 
-cd back-end
-python3 -m venv venv
-source venv/bin/activate
-cd code
-python main.py
+1. cd back-end
+2. python3 -m venv venv
+3. source venv/bin/activate
+4. cd code
+5. python main.py
